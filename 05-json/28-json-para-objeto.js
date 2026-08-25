@@ -4,3 +4,8 @@
 //
 // Escreva sua solução abaixo:
 
+let json = '{"titulo":"Curso de Node.js","duracao":40,"ativo":true}';
+
+let curso = JSON.parse(json);
+
+console.log(curso.duracao);

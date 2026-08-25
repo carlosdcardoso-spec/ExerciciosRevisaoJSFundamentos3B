@@ -6,3 +6,18 @@
 //
 // Escreva sua solução abaixo:
 
+let resposta = {
+    status: 200,
+    quantidade: 2,
+    clientes: [
+        { nome: "João", idade: 30 },
+        { nome: "Maria", idade: 25 }
+    ]
+};
+
+let respostaJSON = JSON.stringify(resposta);
+
+let respostaObjeto = JSON.parse(respostaJSON);
+
+console.log(respostaObjeto.status);
+console.log(respostaObjeto.clientes);

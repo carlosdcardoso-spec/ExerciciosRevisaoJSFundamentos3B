@@ -5,3 +5,12 @@
 //
 // Escreva sua solução abaixo:
 
+let reserva = {
+    codigo: 101,
+    hospede: "Carlos",
+    numeroNoites: 3
+};
+
+let reservaJSON = JSON.stringify(reserva);
+
+console.log(reservaJSON);
