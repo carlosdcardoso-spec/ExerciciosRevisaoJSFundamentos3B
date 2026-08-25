@@ -4,3 +4,6 @@
 //
 // Escreva sua solução abaixo:
 
+const triplo = numero => numero * 3;
+
+console.log(triplo(12)); // 36
