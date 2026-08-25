@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+let saldos = [120, 50, -20, 300, 75];
+
+let existeSaldoNegativo = saldos.some(function(saldo) {
+    return saldo < 0;
+});
+
+console.log(existeSaldoNegativo);

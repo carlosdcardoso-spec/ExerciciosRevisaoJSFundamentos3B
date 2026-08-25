@@ -4,3 +4,10 @@
 //
 // Escreva sua solução abaixo:
 
+let temperaturas = [18, 25, 31, 16, 29, 35, 22];
+
+let temperaturasAcimaDe25 = temperaturas.filter(function(temperatura) {
+    return temperatura > 25;
+});
+
+console.log(temperaturasAcimaDe25);

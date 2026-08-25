@@ -4,3 +4,8 @@
 //
 // Escreva sua solução abaixo:
 
+let cidades = ["São Paulo", "Rio de Janeiro", "Salvador", "Curitiba", "Recife"];
+
+cidades.forEach(function(cidade) {
+    console.log(cidade.toUpperCase());
+});

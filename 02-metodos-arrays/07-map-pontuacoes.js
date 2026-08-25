@@ -4,4 +4,12 @@
 // Mostre o array original e o novo array.
 //
 // Escreva sua solução abaixo:
+let pontuacoes = [20, 35, 40, 55];
+
+let novasPontuacoes = pontuacoes.map(function(pontuacao) {
+    return pontuacao + 5;
+});
+
+console.log("Array original:", pontuacoes);
+console.log("Novo array:", novasPontuacoes);
 

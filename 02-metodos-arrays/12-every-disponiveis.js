@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+let quantidades = [4, 2, 7, 1, 6];
+
+let todosDisponiveis = quantidades.every(function(quantidade) {
+    return quantidade > 0;
+});
+
+console.log(todosDisponiveis);

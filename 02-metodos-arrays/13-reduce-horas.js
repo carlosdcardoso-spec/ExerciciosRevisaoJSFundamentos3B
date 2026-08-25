@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+let horas = [8, 7, 8, 6, 8];
+
+let totalHoras = horas.reduce(function(total, hora) {
+    return total + hora;
+}, 0);
+
+console.log(totalHoras);

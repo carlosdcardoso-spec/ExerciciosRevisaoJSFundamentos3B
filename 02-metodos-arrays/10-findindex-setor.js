@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+let setores = ["Vendas", "Financeiro", "TI", "RH"];
+
+let indiceTI = setores.findIndex(function(setor) {
+    return setor === "TI";
+});
+
+console.log(indiceTI);
