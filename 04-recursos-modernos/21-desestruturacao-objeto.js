@@ -5,3 +5,14 @@
 //
 // Escreva sua solução abaixo:
 
+let viagem = {
+    destino: "Rio de Janeiro",
+    dias: 5,
+    valor: 2500
+};
+
+let { destino, dias, valor } = viagem;
+
+console.log(destino);
+console.log(dias);
+console.log(valor);

@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+let linguagens = ["JavaScript", "Python", "Java"];
+
+let [linguagem1, linguagem2, linguagem3] = linguagens;
+
+console.log(linguagem1);
+console.log(linguagem2);
+console.log(linguagem3);

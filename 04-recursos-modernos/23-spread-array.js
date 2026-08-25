@@ -4,3 +4,9 @@
 //
 // Escreva sua solução abaixo:
 
+let familia = ["João", "Maria", "Carlos"];
+let amigos = ["Pedro", "Ana", "Lucas"];
+
+let convidados = [...familia, ...amigos];
+
+console.log(convidados);

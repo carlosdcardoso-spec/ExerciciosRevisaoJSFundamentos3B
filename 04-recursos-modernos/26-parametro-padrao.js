@@ -5,3 +5,9 @@
 //
 // Escreva sua solução abaixo:
 
+function calcularEntrega(valor, taxa = 10) {
+    return valor + taxa;
+}
+
+console.log(calcularEntrega(50, 5));
+console.log(calcularEntrega(50));
