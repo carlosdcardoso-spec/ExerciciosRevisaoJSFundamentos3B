@@ -4,3 +4,13 @@
 //
 // Escreva sua solução abaixo:
 
+let curso = {
+    nome: "JavaScript",
+    modalidade: "Online",
+
+    descrever: function() {
+        return "O curso de " + this.nome + " é na modalidade " + this.modalidade + ".";
+    }
+};
+
+console.log(curso.descrever());

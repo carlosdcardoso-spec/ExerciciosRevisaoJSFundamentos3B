@@ -5,3 +5,15 @@
 //
 // Escreva sua solução abaixo:
 
+let ingresso = {
+    evento: "Show",
+    preco: 100,
+    quantidade: 2
+};
+
+console.log("Antes:", ingresso);
+
+ingresso.preco = 120;
+ingresso.quantidade += 2;
+
+console.log("Depois:", ingresso);

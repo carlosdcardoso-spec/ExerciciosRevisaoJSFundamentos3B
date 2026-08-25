@@ -5,3 +5,12 @@
 //
 // Escreva sua solução abaixo:
 
+let circulo = {
+    raio: 5,
+
+    calcularArea: function() {
+        return Math.PI * this.raio * this.raio;
+    }
+};
+
+console.log(circulo.calcularArea().toFixed(2));

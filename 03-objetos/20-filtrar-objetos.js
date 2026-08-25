@@ -5,3 +5,16 @@
 //
 // Escreva sua solução abaixo:
 
+let funcionarios = [
+    { nome: "Ana", salario: 2500 },
+    { nome: "Bruno", salario: 3500 },
+    { nome: "Carlos", salario: 4200 },
+    { nome: "Daniela", salario: 2800 },
+    { nome: "Eduardo", salario: 5000 }
+];
+
+let funcionariosAcimaDe3000 = funcionarios.filter(function(funcionario) {
+    return funcionario.salario > 3000;
+});
+
+console.log(funcionariosAcimaDe3000);

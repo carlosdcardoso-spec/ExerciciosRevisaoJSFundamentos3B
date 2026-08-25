@@ -4,3 +4,11 @@
 //
 // Escreva sua solução abaixo:
 
+let smartphone = {
+    marca: "Samsung",
+    modelo: "Galaxy S24",
+    armazenamento: "256GB",
+    ligado: true
+};
+
+console.log(smartphone);
